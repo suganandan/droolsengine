@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.du.drools.droolsengine.service.JewelleryShopService;
-import com.du.drools.droolsengine.vo.Product;
+//import com.du.drools.droolsengine.vo.Product;
 @RestController
 public class JewelleryShopController {
 
@@ -18,7 +18,7 @@ public class JewelleryShopController {
 		this.jewelleryShopService = jewelleryShopService;
 	}
 
-	@RequestMapping(value = "/getDiscount", method = RequestMethod.GET, produces = "application/json")
+	/*@RequestMapping(value = "/getDiscount", method = RequestMethod.GET, produces = "application/json")
 	public Product getQuestions(@RequestParam(required = true) String type) {
 
 		Product product = new Product();
@@ -27,6 +27,6 @@ public class JewelleryShopController {
 		jewelleryShopService.getProductDiscount(product);
 
 		return product;
-	}
+	}*/
 
 }
