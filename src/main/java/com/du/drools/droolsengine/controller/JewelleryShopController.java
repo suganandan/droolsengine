@@ -28,5 +28,21 @@ public class JewelleryShopController {
 
 		return product;
 	}*/
+	
+	
+	public int add(int n1, int n2) {
+		int result = 0;
+		if (n1 > n2) {
+			result = n1 + n2;
+		} else {
+			result = n2 - n1;
+		}
+		return result;
+	}
+	
+	public int mul(int n1, int n2) {
+		
+		return n1*n2;
+	}
 
 }
