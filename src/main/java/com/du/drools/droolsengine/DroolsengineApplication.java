@@ -13,12 +13,9 @@ import org.springframework.boot.WebApplicationType;
 public class DroolsengineApplication {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(DroolsengineApplication.class, args);
 		ConfigurableApplicationContext ctx = new 
   SpringApplicationBuilder(DroolsengineApplication.class).web(WebApplicationType.NONE).run();
-System.out.println("Spring Boot application started");
 ctx.close();
-		System.out.println("Welcome");
 	}
 
 	@Bean
