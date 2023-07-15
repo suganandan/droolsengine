@@ -9,13 +9,13 @@ import com.du.drools.droolsengine.vo.Person;
 @Service
 public class JewelleryShopService {
 
-	private final KieContainer kieContainer;
+	//private final KieContainer kieContainer;
 
 	@Autowired
-	public JewelleryShopService(KieContainer kieContainer) {
-		this.kieContainer = kieContainer;
+	public JewelleryShopService() {
+		
 	}
-
+/*
 	public Person getProductDiscount(Person person) {
 		KieSession kieSession = kieContainer.newKieSession("rulesSession");
 		kieSession.insert(person);
@@ -23,4 +23,4 @@ public class JewelleryShopService {
 		
 		kieSession.dispose();
 		return person;
-	}}
+	}*/}
