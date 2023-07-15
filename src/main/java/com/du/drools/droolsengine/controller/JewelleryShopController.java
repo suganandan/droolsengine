@@ -44,7 +44,7 @@ public class JewelleryShopController {
 		
 		return n1*n2;
 	}
-	public int mult(int n1, int n2) {
+	public int multi(int n1, int n2) {
 		
 		
 		return n1/n2;
